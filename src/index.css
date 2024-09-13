@@ -90,10 +90,18 @@ body{
 }
 @layer utilities {
   .text-gradient {
-    background: linear-gradient(to right, #5fffaa, #45eded); /* حدد التدرج هنا */
+    background: linear-gradient(to right, #5fffaa, #45eded); 
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     color: transparent;
   }
+}
+header a{
+  padding: 2px 4px;
+  border-radius: 2px;
+  transition: .2s;
+}
+.active{
+  background-color: #353535;
 }

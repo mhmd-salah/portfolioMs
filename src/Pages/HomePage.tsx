@@ -1,3 +1,4 @@
+import BoxReveal from "@/Components/magicui/box-reveal";
 import SlightFlip from "@/Components/magicui/flip-text";
 import Particles from "@/Components/magicui/particles";
 import {motion} from "framer-motion";
@@ -14,6 +15,9 @@ function HomePage() {
           word="Welcome Dear in my portfolio"
           className="lg:text-6xl tracking-normal"
         />
+        {/* <BoxReveal boxColor="teal">
+          <h1>hello</h1>
+        </BoxReveal> */}
         <SlightFlip word="My Name Is " className="lg:text-5xl " />
         <SlightFlip
           word="Mohamed Salah"
